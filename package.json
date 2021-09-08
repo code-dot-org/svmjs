@@ -1,7 +1,7 @@
 {
   "name": "@code-dot-org/svm",
   "description": "Code.org fork of karpathy/svmjs for use within the Code Studio learning environment.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Andrej Karpathy <andrej.karpathy@gmail.com>",
   "main": "./lib/svm",
   "repository": {
