@@ -7,5 +7,15 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/code-dot-org/svmjs.git"
+  },
+  "scripts": {
+    "test": "node test/testnode.js",
+    "lint": "eslint lib/**",
+    "pretest": "npm run lint",
+    "preversion": "npm whoami && npm test",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.0"
   }
 }
